@@ -12,7 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Coupa1.js"
+            "program": "${workspaceFolder}\\DsaNew1.js"
         }
     ]
 }

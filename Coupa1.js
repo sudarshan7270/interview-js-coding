@@ -730,7 +730,7 @@ function deepEqualNew(obj1, obj2) {
   if (key1.length !== key2.length) return false
 
   for (let key in obj1) {
-    if (!deepEqualNew(obj1[key], obj2[key])) {
+    if (!key2.includes(key) || !deepEqualNew(obj1[key],obj2[key])) {
       return false
     }
   }
